@@ -1,0 +1,15 @@
+.DS_Store
+._*
+
+# MakeDaisy is cloned by setup.sh (upstream MIT — see tools/MakeDaisy/LICENCE.txt)
+tools/MakeDaisy/
+
+# Your audiobooks stay local
+books/*
+!books/.gitkeep
+
+# Personal tracking / notes
+resources/
+
+# Local Go build output
+bin/
